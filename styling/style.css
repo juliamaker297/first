@@ -1,3 +1,30 @@
 body {
-    background-color:rgb(132, 132, 208);
+    background-color:rgb(174, 208, 132);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+header {
+    font-family:'Times New Roman', Times, serif;
+}
+
+nav {
+    border-bottom: 1px solid black;
+}
+
+nav a {
+    color:black;
+    text-decoration:none;
+    padding: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+nav a:hover{
+    box-shadow: 0 3px 5px black;
+}
+
+nav a:active {
+    box-shadow: 0 1px 3px black;
 }
