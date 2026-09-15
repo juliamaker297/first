@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body {
     background-color:rgb(174, 208, 132);
     display:flex;
@@ -7,7 +10,10 @@ body {
 }
 
 header {
-    font-family:'Times New Roman', Times, serif;
+    font-family: "Roboto Condensed", sans-serif;
+  
+  font-weight: 400;
+  font-style: normal;
 }
 
 nav {
@@ -27,4 +33,18 @@ nav a:hover{
 
 nav a:active {
     box-shadow: 0 1px 3px black;
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+.subhead {
+    font-size: 25px;
+    color: rgb(70, 69, 69, 0.8);
+
+}
+
+.max {
+max-width: 60dvw;
 }
